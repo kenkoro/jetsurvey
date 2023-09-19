@@ -1,8 +1,9 @@
 [versions]
+accompanist = "0.30.1"
 androidx-compose-bom = "2023.03.00"
 androidx-junit = "1.1.5"
 activity-compose = "1.7.2"
-core-ktx = "1.12.0"
+core-ktx = "1.9.0"
 espresso-core = "3.5.1"
 junit = "4.13.2"
 lifecycle-runtime-ktx = "2.6.2"
@@ -10,6 +11,9 @@ compile-sdk = "33"
 min-sdk = "24"
 target-sdk = "33"
 compose-compiler = "1.4.3"
+androidx-navigation = "2.7.0-beta02"
+coroutines = "1.7.3"
+androidx-test-ext-truth = "1.5.0"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
@@ -19,3 +23,9 @@ androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-j
 androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
 junit = { module = "junit:junit", version.ref = "junit" }
 androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidx-compose-bom" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
+androidx-test-ext-truth = { module = "androidx.test.ext:truth", version.ref = "androidx-test-ext-truth" }
