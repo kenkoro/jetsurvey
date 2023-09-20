@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">jetsurvey</string>
+    <string name="app_name" translatable="false">Jetsurvey</string>
+    <string name="app_tagline">Better surveys with Jetpack Compose</string>
+    <string name="app_logo_description">Branding Logo</string>
+    <string name="sign_in_create_account">Sign in or create an account</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="user_continue">Continue</string>
+    <string name="or">or</string>
+    <string name="sign_in_guest">Sign in as guest</string>
 </resources>
