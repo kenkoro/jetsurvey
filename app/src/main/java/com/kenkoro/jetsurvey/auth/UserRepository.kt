@@ -33,7 +33,7 @@ object UserRepository {
     }
 
     /**
-     * NOTE: If the email contains "sign up" we consider it unknown
+     * If the email contains "sign up" we consider it unknown.
      */
     fun isKnownUserEmail(email: String): Boolean {
         return !email.contains("signup")
