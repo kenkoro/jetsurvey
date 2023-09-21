@@ -3,7 +3,16 @@
     <string name="app_tagline">Опросики с Jetpack Compose</string>
     <string name="app_logo_description">Лого брэнда</string>
     <string name="sign_in_create_account">Войти или создать новый аккаунт</string>
+    <string name="email">Электронная почта</string>
     <string name="user_continue">Продолжить</string>
     <string name="or">или</string>
     <string name="sign_in_guest">Войти как гость</string>
+    <string name="feature_not_available">Это сейчас недоступно</string>
+    <string name="dismiss">Скрыть</string>
+    <string name="back">Назад</string>
+    <string name="sign_in">Войти</string>
+    <string name="hide_password">Скрыть пароль</string>
+    <string name="show_password">Показать пароль</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
 </resources>

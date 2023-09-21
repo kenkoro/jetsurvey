@@ -3,8 +3,16 @@
     <string name="app_tagline">Better surveys with Jetpack Compose</string>
     <string name="app_logo_description">Branding Logo</string>
     <string name="sign_in_create_account">Sign in or create an account</string>
-    <string name="email" translatable="false">Email</string>
+    <string name="email">Email</string>
     <string name="user_continue">Continue</string>
     <string name="or">or</string>
     <string name="sign_in_guest">Sign in as guest</string>
+    <string name="feature_not_available">Feature not available</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="back">Back</string>
+    <string name="sign_in">Sign in</string>
+    <string name="hide_password">Hide password</string>
+    <string name="show_password">Show password</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password</string>
 </resources>
