@@ -66,7 +66,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.viewmodel)
+    implementation(libs.androidx.material.icons.extended)
     val composeBom = platform(libs.androidx.compose.bom)
 
     implementation(libs.androidx.core.ktx)

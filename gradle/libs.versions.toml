@@ -11,7 +11,7 @@ compile-sdk = "34"
 min-sdk = "24"
 target-sdk = "34"
 compose-compiler = "1.4.3"
-androidx-navigation = "2.7.2"
+androidx-navigation = "2.7.3"
 coroutines = "1.7.3"
 androidx-test-ext-truth = "1.5.0"
 viewmodel = "1.1.1"
@@ -30,4 +30,4 @@ kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-t
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }
 accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
 androidx-test-ext-truth = { module = "androidx.test.ext:truth", version.ref = "androidx-test-ext-truth" }
-viewmodel = { module = "android.arch.lifecycle:viewmodel", version.ref = "viewmodel" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version = "1.6.0-alpha05" }
