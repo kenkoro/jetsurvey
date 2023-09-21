@@ -1,7 +1,9 @@
-package com.kenkoro.jetsurvey.auth
+package com.kenkoro.jetsurvey.auth.route
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.kenkoro.jetsurvey.auth.screen.WelcomeScreen
+import com.kenkoro.jetsurvey.auth.WelcomeViewModel
 import com.kenkoro.jetsurvey.auth.WelcomeViewModel.WelcomeViewModelFactory
 
 @Composable

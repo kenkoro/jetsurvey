@@ -10,7 +10,8 @@ import com.kenkoro.jetsurvey.Destinations.SIGN_UP_ROUTE
 import com.kenkoro.jetsurvey.Destinations.SURVEY_RESULTS_ROUTE
 import com.kenkoro.jetsurvey.Destinations.SURVEY_ROUTE
 import com.kenkoro.jetsurvey.Destinations.WELCOME_ROUTE
-import com.kenkoro.jetsurvey.auth.WelcomeRoute
+import com.kenkoro.jetsurvey.auth.route.SignInRoute
+import com.kenkoro.jetsurvey.auth.route.WelcomeRoute
 
 object Destinations {
     const val WELCOME_ROUTE = "welcome"
@@ -43,7 +44,17 @@ fun JetSurveyNavHost(
         }
 
         composable(SIGN_IN_ROUTE) {
-            TODO("Implement the sign in route")
+            val startingEmail = it.arguments?.getString("email")
+            SignInRoute(
+                email = startingEmail,
+                onSignInSubmitted = {
+                    navController.navigate(SURVEY_ROUTE)
+                },
+                onSignAsGuest = {
+                    navController.navigate(SURVEY_ROUTE)
+                },
+                onNavUp = navController::navigateUp
+            )
         }
 
         composable(SIGN_UP_ROUTE) {
