@@ -62,7 +62,7 @@ fun SignInCreateAccount(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(top = 28.dp, bottom = 3.dp),
-            onClick = onSubmit,
+            onClick = onSubmit
         ) {
             Text(
                 text = stringResource(id = R.string.user_continue),

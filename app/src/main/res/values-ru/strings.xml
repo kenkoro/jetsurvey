@@ -15,4 +15,6 @@
     <string name="show_password">Показать пароль</string>
     <string name="password">Пароль</string>
     <string name="forgot_password">Забыли пароль?</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="confirm_password">Подтвердите пароль</string>
 </resources>

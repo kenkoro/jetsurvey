@@ -12,7 +12,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
@@ -23,15 +22,15 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import com.kenkoro.jetsurvey.R
-import com.kenkoro.jetsurvey.auth.PasswordState
+import com.kenkoro.jetsurvey.auth.TextFieldState
 
 @Composable
 fun Password(
+    modifier: Modifier = Modifier,
     label: String,
-    passwordState: PasswordState,
+    passwordState: TextFieldState,
     imeAction: ImeAction = ImeAction.Done,
-    onImeAction: () -> Unit = {},
-    modifier: Modifier = Modifier
+    onImeAction: () -> Unit = {}
 ) {
     val showPassword = rememberSaveable { mutableStateOf(false) }
 

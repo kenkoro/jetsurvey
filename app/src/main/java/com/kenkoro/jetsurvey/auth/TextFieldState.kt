@@ -10,10 +10,12 @@ open class TextFieldState(
     private val errorFor: (String) -> String = { "" }
 ) {
     var text: String by mutableStateOf("")
+
     /**
      * Was the text at least once focused
      */
     var isFocusedDirty: Boolean by mutableStateOf(false)
+
     var isFocused: Boolean by mutableStateOf(false)
     private var displayErrors: Boolean by mutableStateOf(false)
 
@@ -36,7 +38,9 @@ open class TextFieldState(
     open fun getError(): String? {
         return if (showErrors()) {
             errorFor(text)
-        } else null
+        } else {
+            null
+        }
     }
 }
 

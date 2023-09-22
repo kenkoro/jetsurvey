@@ -10,7 +10,9 @@ class ConfirmedPasswordState(private val passwordState: PasswordState) : TextFie
     override fun getError(): String? {
         return if (showErrors()) {
             passwordConfirmationError()
-        } else null
+        } else {
+            null
+        }
     }
 }
 

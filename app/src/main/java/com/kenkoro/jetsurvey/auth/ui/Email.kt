@@ -21,7 +21,7 @@ import com.kenkoro.jetsurvey.auth.TextFieldState
 fun Email(
     emailState: TextFieldState = remember { EmailState() },
     imeAction: ImeAction = ImeAction.Next,
-    onImeAction: () -> Unit = {},
+    onImeAction: () -> Unit = {}
 ) {
     OutlinedTextField(
         modifier = Modifier
